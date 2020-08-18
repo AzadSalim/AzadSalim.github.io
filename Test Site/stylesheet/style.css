@@ -1,0 +1,66 @@
+html{
+    font-size: 10px;
+    font-family: 'Handlee', cursive;/*font downloded from googl fonts*/
+    background-color: rgb(58, 57, 57);
+}
+
+.container{
+    margin: auto;
+    padding-left: 20px;
+}
+body{
+    background-color: black;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 5px 5px,5px;
+    border: 5px solid lightslategrey;
+}
+h1,h2,h3,h4,p,li{
+    color: lightgrey;
+
+
+}
+
+h1{
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px, 3px, 1px lightgrey;
+}
+
+/*images are inline elements, it is not possible to apply padding or margins to inline elements so we must give the image a block level behavior using disply: block;*/
+img{
+    display: block;
+    margin: auto;
+    padding: 5px;
+    height: 200px;
+    width: 500px;
+    border: 3px solid lightslategrey;
+    
+}
+
+p{
+    width: 500px;
+    border: 1px solid black;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+p, li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+button{
+    background-color: mediumaquamarine;
+    color: black;
+    border-radius: 75%;
+    margin-bottom: 15px;
+    font-size: 16px;
+    padding: 12px 12px;
+    border: none;
+    cursor: pointer;
+   }
